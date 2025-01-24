@@ -2,9 +2,15 @@ package com.cc.java;
 
 public class Drone extends HoneyBee{
 
-    public String doYourJob(){
-        return "I'm a drone, I'm going to date our Queen!";
+    @Override
+    public String doYourJob() {
+       return "I'm a DroneBee, I scout all Day!";
     }
+    @Override
+    public String fly() {
+        return "I can fly so high at 38mph";
+    }
+
 
 
 }
