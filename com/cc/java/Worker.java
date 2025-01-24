@@ -12,12 +12,7 @@ public class Worker extends HoneyBee{
         return "I can fly so high at 30mph";
     }
 
-    
-    // public String doYourJob(){
-    //     return "I'm a Worker bee, I work all Day!";
-    // }
-
-    }
+}
 
     
 
